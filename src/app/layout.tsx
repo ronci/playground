@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import './globals.css'
 import '@/app/reset.css'
 
 export const metadata: Metadata = {

@@ -1,15 +1,5 @@
-import { css } from '@styled-system/css'
+import * as styles from '@/app/page.css'
 
 export default function Home() {
-  return (
-    <div
-      className={css({
-        fontSize: '2xl',
-        fontWeight: 'bold',
-        color: 'yellow.400',
-      })}
-    >
-      Hello 🐼!
-    </div>
-  )
+  return <main className={styles.test}>test</main>
 }
